@@ -10,6 +10,8 @@
 
 **Objective:** Given an array of int, invert its elements.
 
+**Main Logic:** Go through the array an
+
 **Examples:**
 
 ```python
@@ -115,3 +117,31 @@ Output: ["1","2","Fizz","4","Buzz","Fizz","7","8","Fizz","Buzz","11","Fizz","13"
 - **Space:**O(1) - 
 
 ---
+
+#### Number: Exercise 6
+
+**Date:** 23/10/2025
+
+**From:** LeetCode - 1342 - Number of Steps to Reduze a Number to Zero
+
+**Objective:** Given a int num, return the number of steps to reduze it to zero.
+
+**Examples:**
+
+```python
+Example 1:
+
+Input: num = 14
+Output: 6
+Explanation: 
+Step 1) 14 is even; divide by 2 and obtain 7. 
+Step 2) 7 is odd; subtract 1 and obtain 6.
+Step 3) 6 is even; divide by 2 and obtain 3. 
+Step 4) 3 is odd; subtract 1 and obtain 2. 
+Step 5) 2 is even; divide by 2 and obtain 1. 
+Step 6) 1 is odd; subtract 1 and obtain 0.
+```
+
+**Complexity:**
+- **Time:**O(n) - 
+- **Space:**O(1) - 
